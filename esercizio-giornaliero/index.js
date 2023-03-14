@@ -12,7 +12,9 @@ buttonSave.addEventListener('click', function () {
 
 
 buttonClear.addEventListener('click', function () {
-    localStorage.clear()
+    localStorage.clear();
+
+    testo.innerText = " "
 })
 
 let counterDiv = document.getElementById("counter");
